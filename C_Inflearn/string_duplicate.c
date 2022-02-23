@@ -25,21 +25,21 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 0; i < n; i++) {
-        char userInput[100];
+        char user_input[100];
         printf("100자 이하의 문자열을 입력하세요: ");
-        scanf("%s", userInput);
+        scanf("%s", user_input);
         //words[i]의 타입     : char*
         //userInput의 타입 : char[]
 
-        //words[i] = userInput; <- 주소값을 공유 not value
+        //words[i] = user_input; <- 주소값을 공유 not value
 
         char *tmp;
-        tmp = (char *) malloc(strlen(userInput) + 1);
-        strcpy(tmp, userInput);
+        tmp = (char *) malloc(strlen(user_input) + 1);
+        strcpy(tmp, user_input);
 
         words[i] = tmp;
 
-        //words[i] = strdup(userInput);
+        //words[i] = strdup(user_input);
 
     }
 
