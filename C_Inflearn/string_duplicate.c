@@ -46,5 +46,5 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%s\n", *(words + i));
     }
-
+    return 0;
 }
