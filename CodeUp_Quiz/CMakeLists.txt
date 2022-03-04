@@ -3,4 +3,4 @@ project(CodeUp_Quiz C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(CodeUp_Quiz sol_1094.c)
+add_executable(CodeUp_Quiz sol_1098.c)
