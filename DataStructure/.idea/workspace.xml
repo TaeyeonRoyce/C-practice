@@ -15,15 +15,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ADT.c" beforeDir="false" afterPath="$PROJECT_DIR$/ADT.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/ArrayList.h" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/ArrayList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedListV1.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/LinkedListV1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedListV1Main.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/LinkedListV1Main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/PointListMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/PointListMain.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/MatrixPoint.c" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/MatrixPoint.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/MatrixPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/MatrixPoint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/ArrayList.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/ArrayList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedListV1.c" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/ArrayList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedListV1Main.c" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/ArrayListMain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/PointListMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/MatrixPoint/MatrixPointMain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/MatrixPoint.c" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/MatrixPoint/MatrixPoint.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/MatrixPoint.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/MatrixPoint/MatrixPoint.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,13 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LinkedList/Utils" />
+      <recent name="$PROJECT_DIR$/LinkedList" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -86,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646707501196</updated>
-      <workItem from="1646707502446" duration="2202000" />
+      <workItem from="1646707502446" duration="3942000" />
     </task>
     <servers />
   </component>

@@ -1,30 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "ArrayList.h"
-#include "../Utils/MatrixPoint.h"
+#include "./MatrixPoint.h"
+#include "../ArrayList.h"
 
 int main() {
     List list;
-    Point compPos;
-    Point *ppos;
+    MatrixPoint compPos;
+    MatrixPoint *ppos;
 
     ListInit(&list);
 
     //데이터 저장
-    ppos = (Point *) malloc(sizeof(Point));
-    SetPointPost(ppos, 2, 1);
+    ppos = (MatrixPoint *) malloc(sizeof(MatrixPoint));
+    SetPointPos(ppos, 2, 1);
     LInsert(&list, ppos);
 
-    ppos = (Point *) malloc(sizeof(Point));
-    SetPointPost(ppos, 2, 2);
+    ppos = (MatrixPoint *) malloc(sizeof(MatrixPoint));
+    SetPointPos(ppos, 2, 2);
     LInsert(&list, ppos);
 
-    ppos = (Point *) malloc(sizeof(Point));
-    SetPointPost(ppos, 3, 1);
+    ppos = (MatrixPoint *) malloc(sizeof(MatrixPoint));
+    SetPointPos(ppos, 3, 1);
     LInsert(&list, ppos);
 
-    ppos = (Point *) malloc(sizeof(Point));
-    SetPointPost(ppos, 3, 2);
+    ppos = (MatrixPoint *) malloc(sizeof(MatrixPoint));
+    SetPointPos(ppos, 3, 2);
     LInsert(&list, ppos);
 
     //데이터 출력

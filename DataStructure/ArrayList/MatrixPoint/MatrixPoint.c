@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include "MatrixPoint.h"
 
-void SetPointPost(Point *ppos, int xpos, int ypos) {
+void SetPointPos(MatrixPoint *ppos, int xpos, int ypos) {
     ppos->xpos = xpos;
     ppos->ypos = ypos;
 }
 
-void ShowPointPos(Point *ppos) {
+void ShowPointPos(MatrixPoint *ppos) {
     printf("[%d %d] \n", ppos->xpos, ppos->ypos);
 }
 
-int PointComp(Point *pos1, Point *pos2) {
+int PointComp(MatrixPoint *pos1, MatrixPoint *pos2) {
     if (pos1->xpos == pos2->xpos && pos1->ypos == pos2->ypos) {
         return 0;
     } else if (pos1->xpos == pos2->xpos) {
