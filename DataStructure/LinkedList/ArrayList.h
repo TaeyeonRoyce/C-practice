@@ -1,12 +1,17 @@
 #ifndef DATASTRUCTURE_ARRAYLIST_H
 #define DATASTRUCTURE_ARRAYLIST_H
 
+#include "../Utils/MatrixPoint.h"
+
 #define TRUE	1
 #define FALSE	0
 
 #define LIST_LEN	100
 
-typedef int LData;
+//typedef int LData;
+
+//Point를 담는 List로 변경
+typedef Point *LData;
 
 typedef struct __ArrayList {
     LData arr[LIST_LEN];
