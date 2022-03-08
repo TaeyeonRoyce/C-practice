@@ -21,4 +21,3 @@ int PointComp(Point *pos1, Point *pos2) {
         return -1;
     }
 }
-

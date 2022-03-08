@@ -44,7 +44,7 @@ int LFirst(List *plist, LData *pdata);
 int LNext(List *plist, LData *pdata);
 
 //데이터 삭제
-int LRemove(List *plist);
+LData LRemove(List *plist);
 
 //데이터 수
 int LCount(List *plist);
