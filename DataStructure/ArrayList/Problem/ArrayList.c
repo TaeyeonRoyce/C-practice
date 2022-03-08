@@ -45,7 +45,7 @@ int LNext(List *plist, LData *pdata) {
     return TRUE;
 }
 
-LData LRemove(List *plist) {
+int LRemove(List *plist) {
     //curPosition의 데이터 삭제
     //삭제 후 줄어든 List에 대한 처리 필요
     //삭제 된 데이터 이후의 데이터들을 연속적으로 참조 가능하도록 하여야 함.

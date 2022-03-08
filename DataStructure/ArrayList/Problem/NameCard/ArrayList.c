@@ -53,7 +53,7 @@ LData LRemove(List *plist) {
     int removePosition = plist->curPosition;
     int num = plist->numOfData;
 
-    int removeData = plist->arr[removePosition];
+    LData removeData = plist->arr[removePosition];
 
     //삭제된 위치를 기준으로 뒤의 데이터 당기기
     // 1, {removed}, 3, 4, 5 -> 1, 3, 4, 5
