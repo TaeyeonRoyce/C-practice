@@ -6,4 +6,6 @@ set(CMAKE_C_STANDARD 99)
 add_executable(
         DataStructure
         LinkedList/DLinkedList.h
-        LinkedList/DLinkedList.c LinkedList/DLinkedListMain.c)
+        LinkedList/DLinkedList.c
+        LinkedList/LinkedListSort/DLinkedListSortMain.c
+)

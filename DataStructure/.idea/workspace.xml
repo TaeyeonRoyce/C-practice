@@ -15,12 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedList/DLinkedList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/DLinkedList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/DLinkedListMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ADT.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/DLinkedList.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/DLinkedList.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,7 @@
       <updated>1646707501196</updated>
       <workItem from="1646707502446" duration="12129000" />
       <workItem from="1646828983845" duration="2218000" />
-      <workItem from="1646877299552" duration="2209000" />
+      <workItem from="1646877299552" duration="3737000" />
     </task>
     <servers />
   </component>
@@ -132,6 +130,16 @@
           <url>file://$PROJECT_DIR$/ArrayList/Problem/Problem_2.c</url>
           <line>73</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

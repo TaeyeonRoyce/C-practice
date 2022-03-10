@@ -27,6 +27,30 @@ void FInsert(List *plist, LData data) {
 
 }
 
+void SInsert(List *plist, LData data) {
+    Node *newNode = (Node *)malloc(sizeof(Node));
+    //Sort 기준에 따라 data가 맨 앞에 위치할 수 있다.
+    //pred라는 포인터는 처음(head)부터 Sort기준을 적용하기 위해 초기화 및 할당하였다.
+    Node *pred = plist->head;
+
+    newNode->data = data;
+
+    //pred가 마지막 Node를 가리키거나
+    //comp(data, pred->next->data) (Sort기준)을 만족할 때 까지
+    //다음 노드로 이동
+    while(pred->next != NULL
+            && plist->comp(data, pred->next->data) != 0) {
+        pred = pred->next;
+    }
+
+    //데이터 추가
+    newNode->next = pred->next;
+    pred->next = newNode;
+
+    (plist->numOfData)++;
+
+}
+
 //Sort기준의 유무에 따른 데이터 추가 로직 분리
 void LInsert(List *plist, LData data) {
     if (plist->comp == NULL) {
@@ -34,7 +58,7 @@ void LInsert(List *plist, LData data) {
         return;
     }
 
-//    SInsert(plist, data);
+    SInsert(plist, data);
 }
 
 int LFirst(List *plist, LData *pdata) {
@@ -78,4 +102,8 @@ LData LRemove(List *plist) {
 
 int LCount(List *plist) {
     return plist->numOfData;
+}
+
+void SetSortRule(List *plist, int (*comp)(LData data1, LData data2)) {
+    plist->comp = comp;
 }
