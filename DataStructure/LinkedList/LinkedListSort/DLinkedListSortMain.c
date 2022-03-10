@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "../DLinkedList.h"
 
+/**
+ * To Run this Source,
+ * copy following texts and paste to CMakeLists.txt
+
+   add_executable(
+        DataStructure
+        LinkedList/DLinkedList.h
+        LinkedList/DLinkedList.c
+        LinkedList/LinkedListSort/DLinkedListSortMain.c
+    )
+
+ */
+
 //DLinkedList.h의 SInsert기준을 따르면,
 //Sort 기준인 경우 0을 반환 해야함.
 

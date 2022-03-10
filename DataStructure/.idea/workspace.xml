@@ -15,10 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem01/LinkedListHeadInsert.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem01/LinkedListHeadInsert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem01/ProblemMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem02/LinkedListMatrixPoint.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem02/LinkedListMatrixPoint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem02/MatrixPointMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem03/LinkedListMatrixPoint.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem03/LinkedListMatrixPoint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/Problem03/MatrixPointMainSort.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/DLinkedList.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/DLinkedList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/DLinkedListMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/DLinkedListMain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +73,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ArrayList/Problem/NameCard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LinkedList" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,6 +82,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LinkedList" />
+      <recent name="$PROJECT_DIR$/LinkedList/Problem01" />
       <recent name="$PROJECT_DIR$/ArrayList/Problem/NameCard" />
       <recent name="$PROJECT_DIR$/ArrayList/Problem" />
     </key>
@@ -105,7 +116,7 @@
       <updated>1646707501196</updated>
       <workItem from="1646707502446" duration="12129000" />
       <workItem from="1646828983845" duration="2218000" />
-      <workItem from="1646877299552" duration="3737000" />
+      <workItem from="1646877299552" duration="7398000" />
     </task>
     <servers />
   </component>
@@ -133,12 +144,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c</url>
-          <line>18</line>
+          <line>31</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/LinkedList/LinkedListSort/DLinkedListSortMain.c</url>
-          <line>23</line>
+          <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

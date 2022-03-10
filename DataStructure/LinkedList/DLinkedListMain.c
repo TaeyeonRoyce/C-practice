@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "DLinkedList.h"
 
+/**
+ * To Run this Source,
+ * copy following texts and paste to CMakeLists.txt
+
+   add_executable(
+        DataStructure
+        LinkedList/DLinkedList.h
+        LinkedList/DLinkedList.c
+        LinkedList/DLinkedListMain.c
+    )
+
+ */
+
 int main(void) {
     List list;
     LData data;
