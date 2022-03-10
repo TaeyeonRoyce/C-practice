@@ -15,16 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/ArrayList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/ArrayList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/NameCard/ArrayList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/NameCard/ArrayList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/NameCard/NameCard.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/NameCard/NameCard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/Problem_1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayList/Problem/Problem_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/DLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/DLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/DLinkedListMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/ArrayList.c" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/ArrayList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADT.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +79,7 @@
       <recent name="$PROJECT_DIR$/ArrayList/Problem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ArrayList/Problem/NameCard" />
       <recent name="$PROJECT_DIR$/LinkedList/Utils" />
       <recent name="$PROJECT_DIR$/LinkedList" />
@@ -109,7 +105,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646707501196</updated>
-      <workItem from="1646707502446" duration="11755000" />
+      <workItem from="1646707502446" duration="12129000" />
+      <workItem from="1646828983845" duration="2218000" />
+      <workItem from="1646877299552" duration="2209000" />
     </task>
     <servers />
   </component>
