@@ -62,7 +62,7 @@ char *getTurnAfterDay(List *plist, char *name, int day) {
 int main() {
     Employee *empl;
 
-    CList list;
+    List list;
     ListInit(&list);
 
     empl = (Employee *) malloc(sizeof(Employee));

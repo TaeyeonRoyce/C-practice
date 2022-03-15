@@ -15,11 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01/CircularLinkedList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01/CircularLinkedList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01/EmployeeInfo.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01/EmployeeInfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/DoubleLinkedList/DoubleLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/DoubleLinkedList/DoubleLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/DoubleLinkedList/DoubleLinkedListMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01/EmployeeInfo.c" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01/EmployeeInfo.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +113,7 @@
       <workItem from="1646828983845" duration="2218000" />
       <workItem from="1646877299552" duration="11789000" />
       <workItem from="1647005976823" duration="30000" />
-      <workItem from="1647323255972" duration="6862000" />
+      <workItem from="1647323255972" duration="8213000" />
     </task>
     <servers />
   </component>
