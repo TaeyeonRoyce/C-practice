@@ -15,11 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Stack/ArrayStack/ArrayStack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/ArrayStack/ArrayStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/ArrayStack/ArrayStackMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/LinkedListStack/LinkedListStack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/LinkedListStack/LinkedListStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/LinkedListStack/LinkedListStackMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/01_ArrayList/ListMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/01_ArrayList/ListMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +119,7 @@
       <workItem from="1647405881454" duration="659000" />
       <workItem from="1647406719107" duration="137000" />
       <workItem from="1647478007040" duration="5912000" />
-      <workItem from="1647573734558" duration="1883000" />
+      <workItem from="1647573734558" duration="3154000" />
     </task>
     <servers />
   </component>

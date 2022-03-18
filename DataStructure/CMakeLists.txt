@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Stack/ArrayStack/ArrayStack.c
-        Stack/ArrayStack/ArrayStack.h
-        Stack/ArrayStack/ArrayStackMain.c
+        Stack/LinkedListStack/LinkedListStack.c
+        Stack/LinkedListStack/LinkedListStack.h
+        Stack/LinkedListStack/LinkedListStackMain.c
 )
