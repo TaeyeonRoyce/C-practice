@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include "ArrayList.h"
 
+/**
+ * To Run this Source,
+ * copy following texts and paste to CMakeLists.txt
+
+   add_executable(
+        DataStructure
+        Assignment/01_ArrayList/ArrayList.h
+        Assignment/01_ArrayList/ArrayList.c
+        Assignment/01_ArrayList/ListMain.c
+    )
+
+ */
+
 void printList(List *list, char *data);
 
 void removeDataOfList(char removeData, List *plist, char *data);
