@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "CircularQueue.h"
+#include "LinkedListQueue.h"
 
 /**
  * To Run this Source,
@@ -7,9 +7,9 @@
 
    add_executable(
         DataStructure
-        Queue/CircularQueue/CircularQueue.c
-        Queue/CircularQueue/CircularQueue.h
-        Queue/CircularQueue/CircularQueueMain.c
+        Queue/LinkedListQueue/LinkedListQueue.c
+        Queue/LinkedListQueue/LinkedListQueue.h
+        Queue/LinkedListQueue/LinkedListQueueMain.c
 )
 
  */

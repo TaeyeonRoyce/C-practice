@@ -5,5 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-
-        Queue/CircularQueue/CircularQueue.c Queue/CircularQueue/CircularQueue.h Queue/CircularQueue/CircularQueueMain.c)
+        Queue/LinkedListQueue/LinkedListQueue.c
+        Queue/LinkedListQueue/LinkedListQueue.h
+        Queue/LinkedListQueue/LinkedListQueueMain.c
+)

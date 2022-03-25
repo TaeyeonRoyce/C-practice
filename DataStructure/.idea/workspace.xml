@@ -15,12 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Queue/CircularQueue/CircularQueue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/CircularQueue/CircularQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue/CircularQueue/CircularQueueMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/LinkedListQueue/LinkedListQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/LinkedListQueue/LinkedListQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/LinkedListQueue/LinkedListQueueMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/InfixToPostfix/InfixToPostfixMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/InfixToPostfix/InfixToPostfixMain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/CircularQueue/CircularQueueMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/CircularQueue/CircularQueueMain.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <workItem from="1647478007040" duration="5912000" />
       <workItem from="1647573734558" duration="3566000" />
       <workItem from="1648030373148" duration="5904000" />
-      <workItem from="1648212553538" duration="1021000" />
+      <workItem from="1648212553538" duration="1381000" />
     </task>
     <servers />
   </component>
