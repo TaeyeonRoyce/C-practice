@@ -5,9 +5,9 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Assignment/02_NameCardList/NameCard.c
-        Assignment/02_NameCardList/NameCard.h
-        Assignment/02_NameCardList/ArrayList.c
-        Assignment/02_NameCardList/ArrayList.h
-        Assignment/02_NameCardList/NameCardMain.c
+        Stack/LinkedListStack/LinkedListStack.h
+        Stack/LinkedListStack/LinkedListStack.c
+        Stack/InfixToPostfix/InfixToPostfix.c
+        Stack/InfixToPostfix/InfixToPostfix.h
+        Stack/InfixToPostfix/InfixToPostfixMain.c
 )
