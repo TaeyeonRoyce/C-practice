@@ -7,5 +7,5 @@ add_executable(
         DataStructure
         Queue/LinkedListQueue/LinkedListQueue.c
         Queue/LinkedListQueue/LinkedListQueue.h
-        Queue/LinkedListQueue/LinkedListQueueMain.c
+        Queue/SimulationEx.c
 )
