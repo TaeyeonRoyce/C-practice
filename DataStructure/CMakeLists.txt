@@ -5,7 +5,9 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Queue/LinkedListQueue/LinkedListQueue.c
-        Queue/LinkedListQueue/LinkedListQueue.h
-        Queue/SimulationEx.c
+        Assignment/03_NameCardSortList/DLinkedList.c
+        Assignment/03_NameCardSortList/DLinkedList.h
+        Assignment/03_NameCardSortList/NameCard.c
+        Assignment/03_NameCardSortList/NameCard.h
+        Assignment/03_NameCardSortList/NameCardLinkedList.c
 )

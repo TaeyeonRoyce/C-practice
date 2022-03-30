@@ -15,7 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Queue/SimulationEx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/DLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/DLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCardLinkedList.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -88,12 +92,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -120,7 +124,8 @@
       <workItem from="1647573734558" duration="3566000" />
       <workItem from="1648030373148" duration="5904000" />
       <workItem from="1648212553538" duration="1645000" />
-      <workItem from="1648388751979" duration="687000" />
+      <workItem from="1648388751979" duration="715000" />
+      <workItem from="1648632738995" duration="4192000" />
     </task>
     <servers />
   </component>
@@ -190,6 +195,11 @@
           <url>file://$PROJECT_DIR$/Assignment/02_NameCardList/NameCardMain.c</url>
           <line>48</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCardLinkedList.c</url>
+          <line>21</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
