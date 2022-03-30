@@ -9,7 +9,7 @@ void ListInit(List *plist) {
     plist->comp = NULL;
 }
 
-//Sort기준의 유무에 따른 데이터 추가 로직 분리
+//Sort기준의 유무에 따른 데이터 추가
 void LInsert(List *plist, LData data) {
     Node *newNode = (Node *)malloc(sizeof(Node));
     //Sort 기준에 따라 data가 맨 앞에 위치할 수 있다.
@@ -20,7 +20,9 @@ void LInsert(List *plist, LData data) {
 
     //pred가 마지막 Node를 가리키거나
     //comp(data, pred->next->data) (Sort기준)을 만족할 때 까지
-    //다음 노드로 이동
+    //ex)
+    //  comp("Anne", "Bakey") > 0 이면 추가
+    //  comp("Bakey", "Anne") < 0, pred를 다음 노드로 이동
     while(pred->next != NULL
           && plist->comp(data, pred->next->data) > 0) {
         pred = pred->next;

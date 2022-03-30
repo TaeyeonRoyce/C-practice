@@ -15,13 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/DLinkedList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/DLinkedList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCard.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCard.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCardLinkedList.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/03_NameCardSortList/DLinkedList.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/DLinkedList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCardLinkedList.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCardLinkedList.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <workItem from="1648030373148" duration="5904000" />
       <workItem from="1648212553538" duration="1645000" />
       <workItem from="1648388751979" duration="715000" />
-      <workItem from="1648632738995" duration="4192000" />
+      <workItem from="1648632738995" duration="8274000" />
     </task>
     <servers />
   </component>
@@ -188,18 +184,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Assignment/02_NameCardList/NameCardMain.c</url>
-          <line>39</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment/02_NameCardList/NameCardMain.c</url>
-          <line>48</line>
+          <line>40</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment/03_NameCardSortList/NameCardLinkedList.c</url>
-          <line>21</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/Assignment/02_NameCardList/NameCardMain.c</url>
+          <line>37</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
