@@ -5,7 +5,4 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-
-        Queue/Deque/Deque.c
-        Queue/Deque/Deque.h
-        Queue/Deque/DequeMain.c)
+        Assignment/04_Boj-1158/Boj_1158.c)
