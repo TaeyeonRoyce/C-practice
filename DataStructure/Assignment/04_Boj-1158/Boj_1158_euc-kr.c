@@ -1,10 +1,10 @@
-//VSë¡œ ì‹¤í–‰í•˜ëŠ” ê²½ìš° ì˜¤ë¥˜ ë°©ì§€
+//VS·Î ½ÇÇàÇÏ´Â °æ¿ì ¿À·ù ¹æÁö
+
+//
+// Created by ¿øÅÂ¿¬ on 2022/04/07.
+//
+
 #define _CRT_SECURE_NO_WARNINGS
-
-//
-// Created by ì›íƒœì—° on 2022/04/07.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct _node {
@@ -37,7 +37,7 @@ void LInsert(List *plist, int data) {
         plist->cur = newNode;
         plist->before = newNode;
     } else {
-        newNode->next = plist->tail->next; //ì›í˜• ë¦¬ìŠ¤íŠ¸ ìœ ì§€
+        newNode->next = plist->tail->next; //¿øÇü ¸®½ºÆ® À¯Áö
         plist->tail->next = newNode;
         plist->tail = newNode;
     }
@@ -49,13 +49,13 @@ int LRemove(List *plist) {
     Node *removedPosition = plist->cur;
     int removedData = removedPosition->data;
 
-    //ë§¨ ë§ˆì§€ë§‰ì¸ ê²½ìš°
+    //¸Ç ¸¶Áö¸·ÀÎ °æ¿ì
     if (removedPosition == plist->tail) {
-        //ì¸ë±ìŠ¤ê°€ 1ì¸ ê²½ìš°
+        //ÀÎµ¦½º°¡ 1ÀÎ °æ¿ì
         if (plist->tail == plist->tail->next) {
             plist->tail = NULL;
         } else {
-            plist->tail = plist->before; //tailì„ beforeë¡œ ì´ë™
+            plist->tail = plist->before; //tailÀ» before·Î ÀÌµ¿
         }
     }
 
@@ -80,7 +80,7 @@ int IsLast(List *plist) {
 }
 
 
-//main ë¡œì§
+//main ·ÎÁ÷
 int main() {
     int N;
     int K;
@@ -89,26 +89,26 @@ int main() {
     List circularList;
     ListInit(&circularList);
 
-      //1 ~ Nì˜ ê°’ì„ ê°€ì§€ëŠ” ì›í˜• ë¦¬ìŠ¤íŠ¸ ìƒì„±
+    //1 ~ NÀÇ °ªÀ» °¡Áö´Â ¿øÇü ¸®½ºÆ® »ı¼º
     for (int i = 0; i < N; ++i) {
         LInsert(&circularList, i + 1);
     }
 
-    printf("<"); //ì¶œë ¥ ì¡°ê±´ì„ ìœ„í•´ "<"ë¡œ ì‹œì‘
-    maxSearch = N * K; //ë°˜ë³µë¬¸ì„ ìœ„í•œ ìµœëŒ€ ê²½ìš°ì˜ ìˆ˜ ì„¤ì •. forë¬¸ì„ ì‚¬ìš©í•˜ì—¬ ì´ë™ íšŸìˆ˜ë¥¼ ì„¸ê³ , ì´ˆê¸°í™” í•˜ëŠ” ë¡œì§ ì œê±°
-    for (int i = 1; i < maxSearch + 1; ++i) { //1ë¶€í„° ì‹œì‘
-        if (IsLast(&circularList)) { //ë§ˆì§€ë§‰ì¸ ê²½ìš°, ì¶œë ¥ í˜•ì‹ì´ ë‹¤ë¦„
+    printf("<"); //Ãâ·Â Á¶°ÇÀ» À§ÇØ "<"·Î ½ÃÀÛ
+    maxSearch = N * K; //¹İº¹¹®À» À§ÇÑ ÃÖ´ë °æ¿ìÀÇ ¼ö ¼³Á¤. for¹®À» »ç¿ëÇÏ¿© ÀÌµ¿ È½¼ö¸¦ ¼¼°í, ÃÊ±âÈ­ ÇÏ´Â ·ÎÁ÷ Á¦°Å
+    for (int i = 1; i < maxSearch + 1; ++i) { //1ºÎÅÍ ½ÃÀÛ
+        if (IsLast(&circularList)) { //¸¶Áö¸·ÀÎ °æ¿ì, Ãâ·Â Çü½ÄÀÌ ´Ù¸§
             int removedData = LRemove(&circularList);
             printf("%d>", removedData);
             break;
         }
-        if (i % K == 0) { //Kë§Œí¼ ì´ë™í•˜ë©´ í•´ë‹¹ ê°’ ì œê±° ë° ì¶œë ¥
+        if (i % K == 0) { //K¸¸Å­ ÀÌµ¿ÇÏ¸é ÇØ´ç °ª Á¦°Å ¹× Ãâ·Â
             int removedData = LRemove(&circularList);
             printf("%d, ", removedData);
         }
-        LMoveCur(&circularList); //ì»¤ì„œ ì´ë™
+        LMoveCur(&circularList); //Ä¿¼­ ÀÌµ¿
     }
 }
-//ì¶œë ¥ í˜•ì‹
+//Ãâ·Â Çü½Ä
 //<3, 6, 2, 7, 5, 1, 4>
 

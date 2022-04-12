@@ -15,8 +15,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158_euc-kr.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,25 +61,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/04_Boj-1158" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assignment/04_Boj-1158" />
       <recent name="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01" />
       <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/LinkedList/Problem01" />
       <recent name="$PROJECT_DIR$/ArrayList/Problem/NameCard" />
-      <recent name="$PROJECT_DIR$/ArrayList/Problem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList" />
@@ -88,6 +91,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -121,7 +129,10 @@
       <workItem from="1648820209190" duration="1053000" />
       <workItem from="1649034137759" duration="782000" />
       <workItem from="1649303445467" duration="3860000" />
-      <workItem from="1649402634409" duration="1000" />
+      <workItem from="1649402634409" duration="259000" />
+      <workItem from="1649692648116" duration="1598000" />
+      <workItem from="1649772837998" duration="241000" />
+      <workItem from="1649773313230" duration="1005000" />
     </task>
     <servers />
   </component>
@@ -199,7 +210,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158.c</url>
-          <line>94</line>
+          <line>97</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
