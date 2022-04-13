@@ -1,10 +1,10 @@
 //VS로 실행하는 경우 오류 방지
-
+#define _CRT_SECURE_NO_WARNINGS
 //
 // Created by 원태연 on 2022/04/07.
 //
 
-#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct _node {
