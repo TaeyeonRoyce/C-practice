@@ -5,4 +5,10 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Stack/InfixToPostfix/Problem/Boj_1935.c)
+        Stack/PostCalculator/PostCalculator.c
+        Stack/PostCalculator/PostCalculatorMain.c
+        Stack/PostCalculator/PostCalculator.h
+        Stack/LinkedListStack/LinkedListStack.h
+        Stack/LinkedListStack/LinkedListStack.c
+)
+

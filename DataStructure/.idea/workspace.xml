@@ -15,8 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stack/PostCalculator/PostCalculator.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/PostCalculator/PostCalculator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/PostCalculator/PostCalculatorMain.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/InfixToPostfix/Problem/Boj_1935.c" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/InfixToPostfix/Problem/Boj_1935.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +91,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -128,7 +136,7 @@
       <workItem from="1649839650519" duration="6351000" />
       <workItem from="1649947229351" duration="170000" />
       <workItem from="1650203958436" duration="647000" />
-      <workItem from="1650248425708" duration="2578000" />
+      <workItem from="1650248425708" duration="3831000" />
     </task>
     <servers />
   </component>
@@ -210,9 +218,9 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Stack/InfixToPostfix/Problem/Boj_1935.c</url>
-          <line>91</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/Stack/PostCalculator/PostCalculatorMain.c</url>
+          <line>12</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
