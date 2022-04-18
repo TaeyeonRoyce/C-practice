@@ -3,13 +3,15 @@
 //
 
 #define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define ASCII_UPPER_ALPHA_START 65;
 
 typedef struct _node {
-    int data;
+    double data;
     struct _node *before;
 } Node;
 
@@ -23,7 +25,7 @@ void initStack(Stack *pstack) {
     pstack->numOfData = 0;
 }
 
-void addData(Stack *pstack, int data) {
+void addData(Stack *pstack, double data) {
     Node *newNode = (Node *) malloc(sizeof(Node));
     newNode->data = data;
     if (pstack->numOfData == 0) {
@@ -38,6 +40,7 @@ void addData(Stack *pstack, int data) {
     pstack->numOfData++;
     return;
 }
+
 int isEmpty(Stack *pstack) {
     if (pstack->numOfData > 0) {
         return 0;
@@ -45,9 +48,9 @@ int isEmpty(Stack *pstack) {
     return 1;
 }
 
-int pop(Stack *pstack) {
+float pop(Stack *pstack) {
     Node *popNode = pstack->cursor;
-    int popData = popNode->data;
+    double popData = popNode->data;
     if (isEmpty(&pstack)) {
         printf("Stack is Empty\n");
         return 0;
@@ -58,25 +61,48 @@ int pop(Stack *pstack) {
     return popData;
 }
 
-int peek(Stack *pstack) {
+float peek(Stack *pstack) {
     return pstack->cursor->data;
 }
 
+int isOperator(char tok) {
+    if (tok == '*' || tok == '+' || tok == '/' || tok == '-') {
+        return 1;
+    }
+    return 0;
+}
 
 
 int main() {
     int N;
-    int num;
-    char userInput[100];
-    int numArray[N];
+    char userInput[50];
     scanf("%d", &N);
     scanf("%s", userInput);
-    for (int i = 0; i < N; ++i) {
-        scanf("%d", &numArray[i]);
+    double numArray[N];
+    for (int i = 0; i < N; i++) {
+        scanf("%lf", &numArray[i]);
     }
+    Stack stack;
+    initStack(&stack);
+    for (int i = 0; i < strlen(userInput); i++) {
+        char tok = userInput[i];
+        if (isOperator(tok)) {
+            double num2 = pop(&stack);
+            double num1 = pop(&stack);
+            if (tok == '*') {
+                addData(&stack, num1 * num2);
+            } else if (tok == '/') {
+                addData(&stack, num1 / num2);
+            } else if (tok == '+') {
+                addData(&stack, num1 + num2);
+            } else if (tok == '-') {
+                addData(&stack, num1 - num2);
+            }
+        } else {
+            addData(&stack, numArray[tok - 65]);
+        }
+    }
+    printf("%.2lf\n", peek(&stack));
 
-
-
-    printf("%d\n%s\n",N,userInput);
     return 0;
 }

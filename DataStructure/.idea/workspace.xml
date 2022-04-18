@@ -15,10 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Stack/InfixToPostfix/Problem/Boj_1935.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158_euc-kr.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158_euc-kr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/InfixToPostfix/Problem/Boj_1935.c" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/InfixToPostfix/Problem/Boj_1935.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +93,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,7 +125,10 @@
       <workItem from="1649692648116" duration="1598000" />
       <workItem from="1649772837998" duration="241000" />
       <workItem from="1649773313230" duration="1376000" />
-      <workItem from="1649839650519" duration="2622000" />
+      <workItem from="1649839650519" duration="6351000" />
+      <workItem from="1649947229351" duration="170000" />
+      <workItem from="1650203958436" duration="647000" />
+      <workItem from="1650248425708" duration="2578000" />
     </task>
     <servers />
   </component>
@@ -212,6 +208,11 @@
           <url>file://$PROJECT_DIR$/Assignment/04_Boj-1158/Boj_1158.c</url>
           <line>97</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Stack/InfixToPostfix/Problem/Boj_1935.c</url>
+          <line>91</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
