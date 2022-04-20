@@ -15,12 +15,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/Boj_2346/Boj_2346_inline.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/Boj_2605/Boj_2605.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/Boj_2605/Boj_2605_inline.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/Boj_2605/LinkedListStack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdvancedLinkedList/Boj_2605/LinkedListStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stack/Boj_17298/Boj_17298.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Playground.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_1/DLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_1/DLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_1/Nomial.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_1/Nomial.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_1/Solution_01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_2/InfixToPostfix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_2/InfixToPostfix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_2/LinkedListStack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_2/LinkedListStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MidTerm/Sol_2/Solution_02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Boj_3986/Boj_3986.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -94,6 +100,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -136,7 +147,7 @@
       <workItem from="1650203958436" duration="647000" />
       <workItem from="1650248425708" duration="3854000" />
       <workItem from="1650343497760" duration="22913000" />
-      <workItem from="1650411985262" duration="1681000" />
+      <workItem from="1650411985262" duration="9687000" />
     </task>
     <servers />
   </component>

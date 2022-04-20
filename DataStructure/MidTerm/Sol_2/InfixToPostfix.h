@@ -1,0 +1,10 @@
+//
+// Created by ¿øÅÂ¿¬ on 2022/04/20.
+//
+
+#ifndef DATASTRUCTURE_INFIXTOPOSTFIX_H
+#define DATASTRUCTURE_INFIXTOPOSTFIX_H
+
+void ConvToRPNExp(char exp[]);
+
+#endif //DATASTRUCTURE_INFIXTOPOSTFIX_H

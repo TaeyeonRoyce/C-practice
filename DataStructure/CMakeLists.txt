@@ -5,7 +5,10 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Stack/LinkedListStack/LinkedListStack.h
-        Stack/LinkedListStack/LinkedListStack.c
-        Stack/Boj_17298/Boj_17298.c)
+        MidTerm/Sol_1/Solution_01.c
+        MidTerm/Sol_1/DLinkedList.c
+        MidTerm/Sol_1/DLinkedList.h
+        MidTerm/Sol_1/Nomial.c
+        MidTerm/Sol_1/Nomial.h
+)
 
