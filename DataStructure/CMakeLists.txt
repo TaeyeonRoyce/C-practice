@@ -5,10 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Stack/PostCalculator/PostCalculator.c
-        Stack/PostCalculator/PostCalculatorMain.c
-        Stack/PostCalculator/PostCalculator.h
         Stack/LinkedListStack/LinkedListStack.h
         Stack/LinkedListStack/LinkedListStack.c
-)
+        Stack/Boj_17298/Boj_17298.c)
 
