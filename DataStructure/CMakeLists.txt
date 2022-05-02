@@ -5,5 +5,7 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Tree/BinaryTree.c Tree/BinaryTree.h Tree/BinaryTreeMain.c)
+        Tree/BinaryTree.c
+        Tree/BinaryTree.h
+        Tree/BinaryTreeMain2.c)
 

@@ -15,11 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Tree/BinaryTree.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/BinaryTree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/BinaryTreeMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/BinaryTreeMain2.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/BinaryTree.c" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/BinaryTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <workItem from="1650248425708" duration="3854000" />
       <workItem from="1650343497760" duration="22913000" />
       <workItem from="1650411985262" duration="10295000" />
-      <workItem from="1651450998823" duration="4643000" />
+      <workItem from="1651450998823" duration="6074000" />
     </task>
     <servers />
   </component>
