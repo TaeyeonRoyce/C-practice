@@ -7,5 +7,9 @@ add_executable(
         DataStructure
         Tree/BinaryTree.c
         Tree/BinaryTree.h
-        Tree/BinaryTreeMain2.c)
+        Tree/ExpressionTree/ExpressionTree.c
+        Tree/ExpressionTree/ExpressionTree.h
+        Tree/ExpressionTree/ExpressionTreeMain.c
+        Tree/ExpressionTree/ListStackExpTree.c
+        Tree/ExpressionTree/ListStackExpTree.h)
 
