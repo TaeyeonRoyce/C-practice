@@ -5,11 +5,6 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Tree/BinaryTree.c
-        Tree/BinaryTree.h
-        Tree/ExpressionTree/ExpressionTree.c
-        Tree/ExpressionTree/ExpressionTree.h
-        Tree/ExpressionTree/ExpressionTreeMain.c
-        Tree/ExpressionTree/ListStackExpTree.c
-        Tree/ExpressionTree/ListStackExpTree.h)
+        Assignment/05_Boj-2263/Boj_2263.c
+)
 
