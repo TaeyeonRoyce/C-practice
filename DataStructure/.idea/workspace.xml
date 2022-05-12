@@ -15,9 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/05_Boj-2263/Boj_2263.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/05_Boj-2263/Boj_2263.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/05_Boj-2263/Boj_2263.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,7 @@
       <workItem from="1650411985262" duration="10295000" />
       <workItem from="1651450998823" duration="6394000" />
       <workItem from="1651803515974" duration="2336000" />
-      <workItem from="1652278744460" duration="6017000" />
+      <workItem from="1652278744460" duration="7952000" />
     </task>
     <servers />
   </component>
@@ -247,7 +246,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Assignment/05_Boj-2263/Boj_2263.c</url>
-          <line>39</line>
+          <line>46</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
