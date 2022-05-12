@@ -15,8 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Tree/Boj_1991/Boj_1991.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/05_Boj-2263/Boj_2263.c" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/05_Boj-2263/Boj_2263.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +139,7 @@
       <workItem from="1650411985262" duration="10295000" />
       <workItem from="1651450998823" duration="6394000" />
       <workItem from="1651803515974" duration="2336000" />
-      <workItem from="1652278744460" duration="7952000" />
+      <workItem from="1652278744460" duration="11275000" />
     </task>
     <servers />
   </component>
@@ -248,6 +249,21 @@
           <url>file://$PROJECT_DIR$/Assignment/05_Boj-2263/Boj_2263.c</url>
           <line>46</line>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tree/Boj_1991/Boj_1991.c</url>
+          <line>123</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tree/Boj_1991/Boj_1991.c</url>
+          <line>104</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Tree/Boj_1991/Boj_1991.c</url>
+          <line>116</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
