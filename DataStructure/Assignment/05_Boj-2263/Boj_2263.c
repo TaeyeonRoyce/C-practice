@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int solution(
         int inorderStart,
@@ -63,9 +64,9 @@ int main() {
     scanf("%d", &n);
 
     //인오더 입력 저장 배열
-    int inorderArray[n];
+    int *inorderArray = malloc(sizeof(int) * n);
     //포스트오더 입력 저장 배열
-    int postorderArray[n];
+    int *postorderArray = malloc(sizeof(int) * n);
     for (int i = 0; i < n; ++i) {
         scanf("%d", &inorderArray[i]);
     }
