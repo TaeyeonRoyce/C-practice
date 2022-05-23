@@ -15,9 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PriorityHeap/UsefulHeap/UsefulHeap.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriorityHeap/UsefulHeap/UsefulHeap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriorityHeap/UsefulHeap/UsefulHeapMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/BubbleSort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/InsertionSort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/SelectionSort.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -91,12 +91,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -144,7 +144,8 @@
       <workItem from="1652278744460" duration="11914000" />
       <workItem from="1652425871822" duration="306000" />
       <workItem from="1652426688573" duration="2076000" />
-      <workItem from="1652662217134" duration="4099000" />
+      <workItem from="1652662217134" duration="4725000" />
+      <workItem from="1653272938395" duration="2839000" />
     </task>
     <servers />
   </component>
@@ -269,6 +270,11 @@
           <url>file://$PROJECT_DIR$/PriorityHeap/UsefulHeap/UsefulHeapMain.c</url>
           <line>13</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sort/SelectionSort.c</url>
+          <line>5</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
