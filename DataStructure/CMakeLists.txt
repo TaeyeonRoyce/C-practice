@@ -5,5 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Sort/InsertionSort.c)
+        Sort/MergeSort.c Sort/QuickSort.c)
 
