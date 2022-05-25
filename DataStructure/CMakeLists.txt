@@ -5,5 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Sort/MergeSort.c Sort/QuickSort.c)
+        Assignment/06_Boj-2750/Boj_2750-radix.c)
 
