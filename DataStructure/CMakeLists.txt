@@ -5,5 +5,6 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Search/InterpolSearch/InterpolSearch.c)
+        Search/BinarySearch/BinaryTree.c
+        Search/BinarySearch/BinaryTree.h Search/BinarySearch/BinarySearchTree.c Search/BinarySearch/BinarySearchTree.h Search/BinarySearch/BinarySearchMain.c)
 
