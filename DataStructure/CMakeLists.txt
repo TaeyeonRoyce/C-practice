@@ -5,6 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        Search/BinarySearch/BinaryTree.c
-        Search/BinarySearch/BinaryTree.h Search/BinarySearch/BinarySearchTree.c Search/BinarySearch/BinarySearchTree.h Search/BinarySearch/BinarySearchMain.c)
+        ALGraph/ALGraph/ALGraph.c ALGraph/ALGraph/ALGraph.h ALGraph/ALGraph/ALGraphMain.c ALGraph/ALGraph/DLinkedList.c ALGraph/ALGraph/DLinkedList.h)
 

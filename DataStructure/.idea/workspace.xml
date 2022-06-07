@@ -15,11 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Search/BinarySearch/BinarySearchMain.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/BinarySearch/BinarySearchTree.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/BinarySearch/BinarySearchTree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/BinarySearch/BinaryTree.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/BinarySearch/BinaryTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraph/ALGraph.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraph/ALGraph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraph/ALGraphMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraph/DLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraph/DLinkedList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -93,12 +93,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -149,7 +149,8 @@
       <workItem from="1652662217134" duration="4725000" />
       <workItem from="1653272938395" duration="19482000" />
       <workItem from="1653466993603" duration="1159000" />
-      <workItem from="1653879879885" duration="1459000" />
+      <workItem from="1653879879885" duration="8320000" />
+      <workItem from="1654572554940" duration="783000" />
     </task>
     <servers />
   </component>
@@ -279,6 +280,11 @@
           <url>file://$PROJECT_DIR$/Sort/SelectionSort.c</url>
           <line>5</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ALGraph/ALGraph/ALGraph.c</url>
+          <line>31</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
