@@ -15,13 +15,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphDFS/ALGraphDFS.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphDFS/ALGraphDFS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphDFS/ALGraphDFSMain.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphDFS/ArrayBaseStack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphDFS/ArrayBaseStack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphDFS/DLinkedList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphDFS/DLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/BFSMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/CircularQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/CircularQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/DLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/DLinkedList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -152,7 +152,7 @@
       <workItem from="1653272938395" duration="19482000" />
       <workItem from="1653466993603" duration="1159000" />
       <workItem from="1653879879885" duration="8320000" />
-      <workItem from="1654572554940" duration="2489000" />
+      <workItem from="1654572554940" duration="4799000" />
     </task>
     <servers />
   </component>
