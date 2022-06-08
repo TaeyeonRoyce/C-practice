@@ -15,19 +15,21 @@ int WhoIsPrecede(int data1, int data2) {
 void GraphInit(ALGraph *pg, int nv) {
     int i;
 
-    pg->adjList = (List *)malloc(sizeof(List) * nv);
+    pg->adjList = (List *)malloc(sizeof(List) * nv); //LinkedList 배열 생성
     pg->numV = nv;
     pg->numE = 0;
 
     for(i = 0; i < nv; i++) {
-        ListInit(&(pg->adjList[i]));
+        ListInit(&(pg->adjList[i])); //LinkedList 배열 초기화
         SetSortRule(&(pg->adjList[i]), WhoIsPrecede);
     }
 
     pg->visitInfo = (int *)malloc(sizeof(int) * pg->numV);
-    memset(pg->visitInfo, 0, sizeof(int) * pg->numV);
+    memset(pg->visitInfo, 0, sizeof(int) * pg->numV); //방문하지 않은 노드에 대해선 0으로 저장
 }
 
+
+//Deprecate
 void GraphDestroy(ALGraph *pg) {
     if(pg->adjList != NULL)
         free(pg->adjList);
@@ -71,11 +73,12 @@ int VisitVertex(ALGraph *pg, int visitV) {
 }
 
 void BFShowGraphVertex(ALGraph *pg, int startV) {
-    Queue queue;
+    Queue queue; //DFS랑 다르게 Stack이 아닌 Queue를 활용하여 진행 순서 보장
+                 //Queue의 FIFO 특징을 통해 BFS순서 구현
     int visitV = startV;
     int nextV;
 
-    QueueInit(&queue);
+    QueueInit(&queue); //진행 순서 담을 Queue init
     VisitVertex(pg, visitV);
 
     while(LFirst(&(pg->adjList[visitV]), &nextV) == TRUE) {

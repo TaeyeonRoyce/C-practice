@@ -15,15 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/BFSMain.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/CircularQueue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/CircularQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/DLinkedList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/DLinkedList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.c" beforeDir="false" afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALGraph/ALGraphBFS/BFSMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/BFSMain.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +146,7 @@
       <workItem from="1653272938395" duration="19482000" />
       <workItem from="1653466993603" duration="1159000" />
       <workItem from="1653879879885" duration="8320000" />
-      <workItem from="1654572554940" duration="4799000" />
+      <workItem from="1654572554940" duration="5186000" />
     </task>
     <servers />
   </component>
