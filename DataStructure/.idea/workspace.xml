@@ -15,9 +15,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/ALEdge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/ALGraphKruskal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/ALGraphKruskal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/ArrayBaseStack.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/ArrayBaseStack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/DLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/DLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/KruskalMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/PriorityQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/PriorityQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/UsefulHeap.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ALGraph/KruskalAlgorithms/UsefulHeap.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.c" beforeDir="false" afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/ALGraphBFS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ALGraph/ALGraphBFS/BFSMain.c" beforeDir="false" afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/BFSMain.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +157,11 @@
       <workItem from="1653272938395" duration="19482000" />
       <workItem from="1653466993603" duration="1159000" />
       <workItem from="1653879879885" duration="8320000" />
-      <workItem from="1654572554940" duration="5186000" />
+      <workItem from="1654572554940" duration="5341000" />
+      <workItem from="1654676660550" duration="1902000" />
+      <workItem from="1654695454837" duration="1911000" />
+      <workItem from="1654784454420" duration="2304000" />
+      <workItem from="1654853136485" duration="456000" />
     </task>
     <servers />
   </component>

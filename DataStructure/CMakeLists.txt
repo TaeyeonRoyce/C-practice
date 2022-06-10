@@ -5,5 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        ALGraph/ALGraphBFS/ALGraphBFS.c ALGraph/ALGraphBFS/ALGraphBFS.h ALGraph/ALGraphBFS/BFSMain.c ALGraph/ALGraphBFS/CircularQueue.c ALGraph/ALGraphBFS/CircularQueue.h ALGraph/ALGraphBFS/DLinkedList.c ALGraph/ALGraphBFS/DLinkedList.h)
+        ALGraph/KruskalAlgorithms/ALGraphKruskal.c ALGraph/KruskalAlgorithms/ALGraphKruskal.h ALGraph/KruskalAlgorithms/ALEdge.h ALGraph/KruskalAlgorithms/ArrayBaseStack.c ALGraph/KruskalAlgorithms/ArrayBaseStack.h ALGraph/KruskalAlgorithms/DLinkedList.c ALGraph/KruskalAlgorithms/DLinkedList.h ALGraph/KruskalAlgorithms/KruskalMain.c ALGraph/KruskalAlgorithms/PriorityQueue.c ALGraph/KruskalAlgorithms/PriorityQueue.h ALGraph/KruskalAlgorithms/UsefulHeap.c ALGraph/KruskalAlgorithms/UsefulHeap.h)
 
