@@ -5,5 +5,4 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(
         DataStructure
-        ALGraph/Boj_2606.c)
-
+        Search/BinarySearch/Boj_10815.c)
