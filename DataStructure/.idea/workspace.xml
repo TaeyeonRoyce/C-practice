@@ -15,7 +15,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Search/BinarySearch/Boj_10815.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/Boj_14729.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/Boj_14729_Sol.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -152,7 +153,7 @@
       <workItem from="1654784454420" duration="2304000" />
       <workItem from="1654853136485" duration="2175000" />
       <workItem from="1654955971757" duration="2205000" />
-      <workItem from="1655004273165" duration="1836000" />
+      <workItem from="1655004273165" duration="7640000" />
     </task>
     <servers />
   </component>
@@ -292,6 +293,11 @@
           <url>file://$PROJECT_DIR$/ALGraph/Boj_2606.c</url>
           <line>289</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sort/Boj_14729_Sol.c</url>
+          <line>15</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
