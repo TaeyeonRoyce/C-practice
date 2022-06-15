@@ -15,7 +15,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eabd1b9d-8bbd-48d9-a549-8529953b9098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ALGraph/ALGraphBFS/Boj_10451.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_1/Assignment.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_1/Assignment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_1/Heap.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_1/Heap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_1/Sol_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_2/BinarySearchMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_2/BinarySearchTree.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_2/BinarySearchTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_2/BinaryTree.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_2/BinaryTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_2/Sol_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/ALGraphBFS.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/ALGraphBFS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/BFSMain.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/CircularQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/CircularQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/DLinkedList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/DLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Sol_3/Sol_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/BinarySearch.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -64,7 +83,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MidTerm/Sol_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Finals/Sol_1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,11 +93,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Finals/Sol_1" />
+      <recent name="$PROJECT_DIR$/Finals/Sol_3" />
+      <recent name="$PROJECT_DIR$/Finals/Sol_2" />
       <recent name="$PROJECT_DIR$/MidTerm/Sol_1" />
       <recent name="$PROJECT_DIR$/PriorityHeap/Promblem09-1" />
-      <recent name="$PROJECT_DIR$/Assignment/04_Boj-1158" />
-      <recent name="$PROJECT_DIR$/AdvancedLinkedList/CircularLinkedList/Problem01" />
-      <recent name="$PROJECT_DIR$/LinkedList" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MidTerm/Sol_1" />
@@ -89,12 +108,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStructure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DataStructure" TARGET_NAME="DataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DataStructure" RUN_TARGET_NAME="DataStructure">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -155,7 +174,8 @@
       <workItem from="1655004273165" duration="8256000" />
       <workItem from="1655090247622" duration="12388000" />
       <workItem from="1655109674074" duration="1284000" />
-      <workItem from="1655167076471" duration="1394000" />
+      <workItem from="1655167076471" duration="2889000" />
+      <workItem from="1655264460401" duration="5786000" />
     </task>
     <servers />
   </component>
@@ -315,6 +335,16 @@
           <url>file://$PROJECT_DIR$/ALGraph/ALGraphBFS/Boj_10451.c</url>
           <line>258</line>
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Finals/Sol_3/Sol_3.c</url>
+          <line>17</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Finals/Sol_1/Sol_1.c</url>
+          <line>46</line>
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
